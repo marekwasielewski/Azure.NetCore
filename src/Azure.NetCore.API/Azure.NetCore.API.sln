@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure.NetCore.API", "Azure.NetCore.API.csproj", "{8EDD4C22-E7AB-4F31-8AC5-282FD3D1976A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure.NetCore.APITests", "..\Azure.NetCore.APITests\Azure.NetCore.APITests.csproj", "{0E387948-D8A2-4ACE-B4D6-C7ABE5C61BEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EDD4C22-E7AB-4F31-8AC5-282FD3D1976A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EDD4C22-E7AB-4F31-8AC5-282FD3D1976A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EDD4C22-E7AB-4F31-8AC5-282FD3D1976A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EDD4C22-E7AB-4F31-8AC5-282FD3D1976A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E387948-D8A2-4ACE-B4D6-C7ABE5C61BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E387948-D8A2-4ACE-B4D6-C7ABE5C61BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E387948-D8A2-4ACE-B4D6-C7ABE5C61BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E387948-D8A2-4ACE-B4D6-C7ABE5C61BEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F87F4B39-6A79-4A29-A34D-705733943E8C}
+	EndGlobalSection
+EndGlobal

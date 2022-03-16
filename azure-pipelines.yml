@@ -41,7 +41,7 @@ steps:
     projects: '**/*Tests/*.csproj'
     arguments: '--configuration $(buildConfiguration)'
 
-- script: dotnet test <test-project> --logger trx --collect "Code coverage"
+- script: dotnet test './src/Azure.NetCore.API/Azure.NetCore.API.sln' --logger trx --collect "Code coverage"
 - task: PublishTestResults@2
   inputs:
     testRunner: VSTest

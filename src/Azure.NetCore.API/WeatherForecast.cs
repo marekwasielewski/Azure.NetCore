@@ -1,7 +1,7 @@
 namespace Azure.NetCore.API
 {
     public class WeatherForecast
-    {
+    {ERRR
         public DateTime Date { get; set; }
 
         public int TemperatureC { get; set; }

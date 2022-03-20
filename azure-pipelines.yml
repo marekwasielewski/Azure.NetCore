@@ -58,4 +58,4 @@ steps:
 - task: Docker@2
   inputs:
     command: 'build'
-    Dockerfile: '/src/Azure.NetCore.API/Dockerfile'
+    Dockerfile: './src/Azure.NetCore.API/Dockerfile'
